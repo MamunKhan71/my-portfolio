@@ -224,3 +224,18 @@ footer{
 .footer-column .section-description{
     text-align: left;
 }
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #what-i-do {
+        padding: 0px 10px 30px 10px;
+    }
+    .skill{
+        text-align: center;
+    }
+}
